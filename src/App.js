@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 //Pages
 import Winter2021 from "./pages/Winter2021";
@@ -9,7 +9,7 @@ import Fall2021 from "./pages/Fall2021";
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <Route path="/Winter2021">
         <Winter2021 />
       </Route>
@@ -22,7 +22,7 @@ function App() {
       <Route path="/Fall2021">
         <Fall2021 />
       </Route>
-    </HashRouter>
+    </Router>
   );
 }
 
