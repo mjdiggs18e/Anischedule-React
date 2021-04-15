@@ -2,6 +2,8 @@
 
 Displays current, past, and upcoming anime seasons and what anime are airing. Shows information for each anime such as official airing date, description, and when the next episode comes out.
 
+[](https://imgur.com/a/Nip4pDo)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7845110f-4b33-4168-8649-d7375db85ac2/deploy-status)](https://app.netlify.com/sites/happy-wozniak-172cb5/deploys)
 
 ### Purpose
