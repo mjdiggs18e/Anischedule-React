@@ -2,7 +2,7 @@
 
 Displays current, past, and upcoming anime seasons and what anime are airing. Shows information for each anime such as official airing date, description, and when the next episode comes out.
 
-![Image of Anischedule](https://imgur.com/a/Nip4pDo)
+![Image of Anischedule](https://i.imgur.com/EbsUhBP.png)
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7845110f-4b33-4168-8649-d7375db85ac2/deploy-status)](https://app.netlify.com/sites/happy-wozniak-172cb5/deploys)
