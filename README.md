@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Anischedule
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Displays current, past, and upcoming anime seasons and what anime are airing. Shows information for each anime such as official airing date, description, and when the next episode comes out.
 
-## Available Scripts
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7845110f-4b33-4168-8649-d7375db85ac2/deploy-status)](https://app.netlify.com/sites/happy-wozniak-172cb5/deploys)
 
-In the project directory, you can run:
+### Purpose
 
-### `npm start`
+The main goal of creating this website was to get a decent understanding of Styled Component and Apollo Client. Styled Component was really easy to set up and drastically decreased the amount of time needed for styling. Not having to worry about clashing CSS classes really helped keep everything in line and organized. Apollo Client was challening to use but I have a good grasp on how everything works for this little example. I was able to call and collect data I queried for and mutate it as well to post information back to AniList's API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Discover all the announced titles for the year of 2021
+- View when new episodes drop for each show
+- Log in to your Anilist account to add shows to your Anilist account
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech
 
-### `npm run build`
+Anischedule was created using the following tools:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://github.com/facebook/react) - JavaScript library for building user interfaces.
+- [Apollo Client](https://github.com/apollographql/apollo-client) - GraphQL client for every UI framework and GraphQL server
+- [React Router](https://github.com/ReactTraining/react-router) - Declarative routing for React
+- [Styled Components](https://github.com/styled-components/styled-components) - Visual primitives for the component age
+- [React Hot Toast](https://github.com/timolins/react-hot-toast) - Smoking hot React Notifications 🔥
+- [AniList API](https://github.com/AniList/ApiV2-GraphQL-Docs) - AniList API V2 GraphQL Documentation
