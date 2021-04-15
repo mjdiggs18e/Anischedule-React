@@ -18,7 +18,7 @@ The main goal of creating this website was to get a decent understanding of Styl
 - Log in to your Anilist account to add shows to your Anilist account
 
 
-### Tech
+### Technologies
 
 Anischedule was created using the following tools:
 
