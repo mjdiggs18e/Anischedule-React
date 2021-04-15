@@ -9,7 +9,7 @@ Displays current, past, and upcoming anime seasons and what anime are airing. Sh
 
 ### Purpose
 
-The main goal of creating this website was to get a decent understanding of Styled Component and Apollo Client. Styled Component was really easy to set up and drastically decreased the amount of time needed for styling. Not having to worry about clashing CSS classes really helped keep everything in line and organized. Apollo Client was challening to use but I have a good grasp on how everything works for this little example. I was able to call and collect data I queried for and mutate it as well to post information back to AniList's API.
+The main goal of creating this website was to get a decent understanding of Styled Component and Apollo Client. Styled Component was really easy to set up and drastically decreased the amount of time needed for styling. Not having to worry about clashing CSS classes really helped keep everything in line and organized. Apollo Client was challening to use but I have a good grasp on how everything works for this little example. I was able to query data for each season of 2021 and even mutate the data to send updates back to AniList's API
 
 ### Features
 
