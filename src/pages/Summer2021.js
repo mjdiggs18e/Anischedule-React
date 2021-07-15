@@ -183,6 +183,7 @@ const AnimeCardWatch = styled.div`
   padding: 1rem;
 `;
 
+
 // eslint-disable-next-line no-unused-vars
 function seconds(seconds) {
   if (seconds == null) {
@@ -247,11 +248,14 @@ const SummerSeason2021 = () => {
                 ? `Ep ${nextAiringEpisode.episode} of ${
                     episodes || "?"
                   } airing in`
-                : `Airing in`}
+                : `Ep ${
+                    nextAiringEpisode?.episode ||
+                    `${episodes} of ${episodes} completed`
+                  }`}
             </AnimeCardEpisodes>
             <AnimeCardTimeUntilAiring>
-              {year
-                ? `${month === 7 ? "July" : ""} ${year}`
+              {nextAiringEpisode && nextAiringEpisode.timeUntilAiring
+                ? seconds(nextAiringEpisode.timeUntilAiring)
                 : "Finished Airing"}
             </AnimeCardTimeUntilAiring>
             <AnimeCardDescription

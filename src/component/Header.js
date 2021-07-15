@@ -80,11 +80,11 @@ const Header = () => {
               Winter 2021
             </NavbarLI>
           </Link>
-          <Link to="/">
-            <NavbarLI primary={location.pathname === "/"}>Spring 2021</NavbarLI>
+          <Link to="/Spring2021">
+            <NavbarLI primary={location.pathname === "/Spring2021"}>Spring 2021</NavbarLI>
           </Link>
-          <Link to="/Summer2021">
-            <NavbarLI primary={location.pathname === "/Summer2021"}>
+          <Link to="/">
+            <NavbarLI primary={location.pathname === "/"}>
               Summer 2021
             </NavbarLI>
           </Link>

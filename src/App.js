@@ -13,10 +13,10 @@ function App() {
       <Route path="/Winter2021">
         <Winter2021 />
       </Route>
-      <Route exact path="/">
+      <Route path="/Spring2021">
         <Spring2021 />
       </Route>
-      <Route path="/Summer2021">
+      <Route exact path="/">
         <Summer2021 />
       </Route>
       <Route path="/Fall2021">
